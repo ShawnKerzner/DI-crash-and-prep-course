@@ -1,0 +1,36 @@
+.div-1 {
+    background-color: green;
+    height: 300px;
+    width: auto;
+}
+
+.flex-container {
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.div-2,
+.div-3,
+.div-4,
+.div-5,
+.div-6,
+.div-7 {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+
+.top-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

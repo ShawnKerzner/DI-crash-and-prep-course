@@ -1,0 +1,40 @@
+body {
+    background-color: orange;
+}
+
+#wrap {
+    background-color: palegoldenrod;
+    border: 5px dashed black;
+
+}
+
+h1 {
+    border-bottom: 5px dashed black;
+    height: auto;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+li::first-letter {
+    font-weight: bold;
+}
+
+.copyright {
+    font-size: smaller;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

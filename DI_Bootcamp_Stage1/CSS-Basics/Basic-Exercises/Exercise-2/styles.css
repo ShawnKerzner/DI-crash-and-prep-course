@@ -1,0 +1,20 @@
+.odd,
+.cooler-odd {
+    background-color: salmon;
+    font-family: Verdana, 'Dejavu Sans', sans-serif;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+.cooler-odd {
+    font-size: 24px;
+}
+
+#four {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

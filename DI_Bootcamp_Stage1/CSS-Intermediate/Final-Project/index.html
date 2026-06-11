@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="nav">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#" class="nav-links"><svg xmlns="http://www.w3.org/2000/svg" height="28"
+                        viewBox="0 -960 960 960" width="28px" fill="currentColor">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg></a></li>
+            <li><a href="#home" class="nav-links">Home</a></li>
+            <li><a href="#biography" class="nav-links">Biography</a></li>
+            <li><a href="#legacy" class="nav-links">Legacy</a></li>
+            <li><a href="#more-info" class="nav-links">More Info</a></li>
+        </ul>
+        <ul>
+            <li><a href="#home" class="nav-links">Oskar Schindler</a></li>
+            <li class="hide-on-mobile"><a href="#home" class="nav-links">Home</a></li>
+            <li class="hide-on-mobile"><a href="#biography" class="nav-links">Biography</a></li>
+            <li class="hide-on-mobile"><a href="#legacy" class="nav-links">Legacy</a></li>
+            <li class="hide-on-mobile"><a href="#more-info" class="nav-links">More Info</a></li>
+            <li class="menu-btn" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28"
+                        viewBox="0 -960 960 960" width="28" fill="currentColor">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <img src="images/Schindlers_factory_Brnenec_CZ_2004b.jpg" alt="Schindler's Factory">
+    </section>
+    <section id="biography">
+        <h3>Biography</h3>
+        <div>
+            <img src="images/Schindler,_Oskar_(3x4_cropped).jpg" alt="Oskar Schindler">
+            <p>Oskar Schindler (German: April 28, 1908 - October 9, 1974) was a German industrialist and
+                humanitarian
+                who is credited with saving the lives of 1,200 Jews during the Holocaust by employing them in his
+                enamelware and ammunitions factories in German-occupied Poland and the Proctectorate of Bohemia and
+                Moravia. He is the subject of the 1982 novel <emphasis>Schindler's Ark</emphasis> and it's 1993 film
+                adaption, <emphasis>Schindler's List</emphasis>.
+                <br>
+                Schindler grew up in Zwittau, Moravia, and worked in several trades until he joined the <emphasis>
+                    Abwehr
+                </emphasis>, the military intelligence service of Nazi Germany, in 1936. Before the beginning of the
+                German occupation of Czechslovakia in 1838, he collected information on railways and troop movements
+                for
+                the German government.
+            </p>
+        </div>
+
+
+    </section>
+    <section id="legacy">
+        <h3>Legacy</h3>
+        <div class="legacy-container">
+            <div>
+                <h4>Novels</h4>
+                <ul>
+                    <li>Schindler's Ark</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Films</h4>
+                <ul>
+                    <li>Schindler's List</li>
+                    <li>Schindler: His Story</li>
+                    <li>Oskar Schindler: The Man Behind the List</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Sites</h4>
+                <ul>
+                    <li>Schindler's Factory</li>
+                    <li>Hildesheim Schindler Memorial</li>
+                    <li>Schindler's Suitcase in Yad Vashem</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+    <footer id="more-info">
+        <div>
+            <span>Click here to learn more about Oskar Schindler:</span>
+            <a href="https://en.wikipedia.org/wiki/Oskar_Schindler"><img src="images/wikipedia-w-brands-solid-full.svg"
+                    alt="Wikipedia Logo" width="30px"></a>
+        </div>
+    </footer>
+
+    <script>
+        function showSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hideSidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+    </script>
+
+</body>
+
+</html>

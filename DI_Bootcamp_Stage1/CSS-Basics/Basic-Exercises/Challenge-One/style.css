@@ -1,0 +1,19 @@
+#wrap {
+    background-color: skyblue;
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 5px;
+}
+
+ul li {
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+li::first-letter {
+    font-weight: bold;
+}

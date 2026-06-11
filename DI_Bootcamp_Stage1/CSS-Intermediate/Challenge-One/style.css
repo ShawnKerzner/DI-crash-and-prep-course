@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-top: 22px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#wrap {
+    background-color: #364371;
+    padding: 0px 60px 50px 60px;
+    margin: 525px;
+}
+
+#nav {
+    background-color: #B0CFFF;
+    float: left;
+    height: auto;
+    padding: 30px 20px 233px 20px;
+}
+
+#nav>ul {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#content {
+    background-color: #5B7FBD;
+    padding: 30px 20px -10px 20px;
+}
+
+#content>p {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#content>ul {
+    margin-bottom: 5px;
+}
+
+#content>ul>li {
+    list-style-type: none;
+    text-align: center;
+}
+
+.copyright {
+    background-color: #364371;
+    padding-top: 10px;
+}
+
+/* Ask instructors for guidance
+1. How to make the top paragraph take up the four lines
+2.Why isn't the <p>text</p> responding when trying to move it to the right.
+*/
