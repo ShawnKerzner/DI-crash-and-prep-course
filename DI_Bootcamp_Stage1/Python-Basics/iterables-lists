@@ -1,0 +1,125 @@
+# # Selecting a specific element in a list can be done according to it's index
+# my_list = ["a", 1, True]
+# # print(my_list[0])
+# # print(my_list[2])
+# # print(my_list[3])
+
+# # An elements value can also be changed using the index
+# my_list[2] = False
+# print(my_list[2])
+
+# # Exercise 1
+# fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+# # Print the first element from the list
+# print(fruits[0])
+# # Print the third element from the list
+# print(fruits[2])
+# # Try accessing an element at an index that doesn't exist and note what happens
+# # print(fruits[8])
+# # Change the second fruit to "blueberry"
+# fruits[1] = "blueberry"
+# print(fruits[1])
+
+# Add a value to the end of a list
+# nums = [1, 2, 3]
+# nums.append(10)
+# print(nums)
+
+# Removes all the values in a list
+# nums.clear()
+# print(nums)
+
+# Make a copy of a list
+# og_list = [2, 3, 4]
+# copy_list = og_list.copy()
+# print(copy_list)
+
+# Count how many times an item appears in a list
+# nums = [1, 2, 3, 4, 5, 5, 5, 5]
+# print(nums.count(5))
+
+# Appends another list and flattens the appended list
+# nums = [1, 2, 3]
+# nums.extend([4, 5, 6])
+# print(nums)
+
+# .index() Returns index at which a value is found
+# numbers = [4, 8, 6, 4]
+# print(numbers.index(8))
+# print(numbers.index(4)) # if there are multiple elements with the same vaule it will only find the first occurence
+
+# .insert() Inserts a value at the given index
+# numbers = [4, 6, 8]
+# numbers.insert(2, 'awesome') # Inserts 'awesome' at index 2
+# print(numbers)
+
+# .pop() removes and returns the element at a given index or removes the last index if no index is specified
+# numbers = [3,4]
+# print(numbers.pop(0))
+# print(numbers.pop())
+# numbers = numbers.pop(0)
+# print(numbers)
+
+# .remove() Removes the first occurence of a value
+# numbers = [1, 2, 3, 1]
+# numbers.remove(1)
+# print(numbers)
+
+# .reverse() Reverses a list in place
+# numbers = [1, 2, 3, 4]
+# numbers.reverse()
+# print(numbers)
+
+# .sort() Sorts the list in place
+# numbers = [4,6,2,0,9]
+# numbers.sort()
+# print(numbers)
+
+# Slicing lists
+
+numbers = [1, 2, 3, 4, 5, 6]
+
+# slice the first element
+# print(numbers[0:1])
+
+# slice from index 1 to the end
+# print(numbers[1:])
+
+# Slice from the start to index 2
+# print(numbers[:3])
+
+# Get the last element
+# print(numbers[-1])
+
+# Slice the last two elements
+# print(numbers[-2:])
+
+# reverses the list
+# print(numbers[::-1])
+
+# Step by two numbers in reverse
+# print(numbers[::-2])
+
+# Exercise 2 
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+# add fig to the end of the fruits
+fruits.append("figs")
+print(fruits)
+# insert 'grape' at the beginning of the list
+fruits.insert(0, 'grape')
+print(fruits)
+# remove 'cherry' from the list
+fruits.remove('cherry')
+print(fruits)
+# remove the last element from the list
+fruits.pop()
+print(fruits)
+# Create another list of berries and combine it with the fruits into a list called combined list
+berries = ["blueberry", "strawberry", "cranberry"]
+combined_list = fruits + berries
+print(combined_list)
+# sort the list
+combined_list.sort()
+print(combined_list)
+# Slice the last 3 elements of the combined list
+print(combined_list[-3:])
