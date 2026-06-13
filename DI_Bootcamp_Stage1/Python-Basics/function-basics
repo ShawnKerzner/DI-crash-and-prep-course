@@ -1,0 +1,66 @@
+# def first_function():
+#     print("Hello World!")
+
+# first_function()
+
+# def add_two_numbers():
+#     return 5 + 5
+
+# print(add_two_numbers())
+
+# ten = add_two_numbers()
+# print(ten + 10)
+
+# def print_five_plus_five():
+#     print(5 + 5)
+
+# def add_five_plus_five():
+#     return 5 + 5
+
+# ten = add_five_plus_five()
+# maybe_ten = print_five_plus_five()
+
+# print(ten)
+# print(maybe_ten)
+
+# Exercise 1:
+# def say_hello():
+#     return "Hello World!"
+
+# print(say_hello())
+
+# def check_positive(number):
+#     if number > 0:
+#         return f"{number} is positive"
+#     elif number == 0:
+#         return "The number is zero"
+#     else:
+#         return f"{number} is negative"
+    
+# print(check_positive(5))
+# print(check_positive(-3))
+
+# def print_items(items):
+#     for item in items:
+#         print(item)
+
+# shopping_list = ['apples', 'bananas', 'carrots']
+# print_items(shopping_list)
+
+# def sum_list(numbers):
+#     total = 0
+#     for number in numbers:
+#         total += number
+#     return total
+
+# numbers = [1, 2, 3, 4, 5]
+# print(sum_list(numbers))
+
+def check_weather():
+    weather = "raining"
+    if weather == "sunny":
+        print("It's a sunny day! Enjoy!")
+    else:
+        print("It might rain take an umbrella!")
+
+check_weather()
