@@ -1,0 +1,11 @@
+# def introduce_pet(cat_name, dog_name):
+#     return f"I have a cat named {cat_name} and a dog named {dog_name}!"
+
+# print(introduce_pet("ash", "simba"))
+# print(introduce_pet(cat_name="tart", dog_name="bart"))
+
+def greet_person(name, age=25):
+    return f"Hello, {name}! You are {age} years old."
+
+print(greet_person("Alice", 30))
+print(greet_person("Bob"))
