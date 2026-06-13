@@ -1,0 +1,9 @@
+global_variable = 0
+
+def increment_global_counter():
+    global global_variable
+    global_variable += 1
+    return global_variable
+
+print(increment_global_counter())
+print(increment_global_counter())
