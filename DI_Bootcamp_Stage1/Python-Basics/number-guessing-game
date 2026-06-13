@@ -1,0 +1,29 @@
+import random
+
+def number_guessing_game():
+    secret_number = random.randint(1, 100)
+    turn_counter = 0
+    while turn_counter < 7:
+        guess = int(input("Enter your guess: "))
+        if guess > 100:
+            print("Error: Input is greater than 100")
+            continue
+        elif guess < 1:
+            print("Error: Input is less than 1")
+            continue
+        elif guess == secret_number:
+            print("Congrats! You guessed the secret number correctly!")
+            break
+        elif guess > secret_number:
+            print("Nope! Go lower!")
+            turn_counter += 1
+            continue
+        else:
+            print("Nope! Go higher")
+            turn_counter += 1
+            continue
+    if guess != secret_number:
+        print(f"Sorry you have run out of guesses! The secret number was: {secret_number}")
+    
+
+number_guessing_game()
