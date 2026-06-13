@@ -1,0 +1,52 @@
+# Add two numbers
+
+def add_two_numbers(x, y):
+    sum = x + y
+    return sum
+
+print(add_two_numbers(5, 6))
+
+def greeting(name):
+    return f"Hello, {name}!"
+
+print(greeting("shawn"))
+
+def number_checker(number):
+    if number % 2 == 0:
+        return "Even"
+    else:
+        return "Odd"
+    
+print(number_checker(5))
+print(number_checker(46))
+
+def sum_list(number_list):
+    return sum(number_list)
+
+print(sum_list([30, 4, 6, 10]))
+
+def print_days_of_week():
+    days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+    for day in days:
+        print(day)
+    
+print_days_of_week()
+
+def what_is_num(num):
+    if num > 0:
+        print(f"{num} is positive")
+    elif num == 0:
+        print(f"{num} is zero")
+    else:
+        print(f"{num} is negative")
+
+what_is_num(-4)
+what_is_num(3)
+what_is_num(0)
+
+def repeat_word(word, number):
+    for i in range(number):
+        print(word)
+
+repeat_word("hello", 5)
+
