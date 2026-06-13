@@ -1,0 +1,19 @@
+pairs_list = [("name", "Elie"), ("job", "instructor")]
+result = dict(pairs_list)
+print(result)
+
+keys = ["CA", "NJ", "RI"]
+values = ["California", "New Jersey", "Rhode Island"]
+results = dict(zip(keys, values))
+print(results)
+
+vowels = ["a", "e", "i", "o", "u"]
+vowel_dict = {}
+
+for vowel in vowels:
+    vowel_dict[vowel] = 0
+print(vowel_dict)
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+alphabet_dict = {position: letter for position, letter in enumerate(alphabet, 1)}
+print(alphabet_dict)
