@@ -1,0 +1,23 @@
+def find_largest_number(numbers):
+    largest_so_far = numbers[0]
+    for i in numbers:
+        if i > largest_so_far:
+            largest_so_far = i;
+    return largest_so_far
+    
+print(find_largest_number([-5, -12, -3, -8]))
+
+def check_for_letter_in_word(word, letter):
+    for char in word:
+        if char == letter:
+            return True
+    return False
+        
+print(check_for_letter_in_word("python", "e"))
+print(check_for_letter_in_word("python", "n"))
+
+def count_to_a_number(number):
+    for i in range(1, number + 1):
+        print(i)
+
+count_to_a_number(10)
