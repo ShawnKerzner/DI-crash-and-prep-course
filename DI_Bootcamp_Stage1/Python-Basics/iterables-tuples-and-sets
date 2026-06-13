@@ -1,0 +1,50 @@
+# x = (1, 2, 3)
+# print(x)
+# print(x[0])
+
+# x[0] = "change me"
+
+# x = (1, 2, 3, 3, 3,)
+# print(x.count(3))
+
+# t = (1, 2, 3, 3, 3)
+# print(t.index(3))
+
+# exercise 1
+# fruits = ("apple", "banana", "orange")
+# print(fruits[0])
+# print(fruits.count("orange"))
+# print(fruits.index("banana"))
+
+# s = {1, 2, 3, 4, 5}
+# print(s)
+# s = {1, 2, 3, 3, 3, 3, 4, 4, 4, 5}
+# print(s)
+
+# s = set([1, 2, 3, 3, 3, 4, 4, 5, 5, 5,])
+# print(s)
+
+# s = {1, 2, 3}
+# s.add(4)
+# print(s)
+# s.add(4)
+# print(s)
+# s.clear()
+# print(s)
+# another_s = s.copy()
+# print(another_s)
+# print(s is another_s)
+
+# numbers_a = {1,2,3}
+# numbers_b = {2,3,4}
+# print(numbers_a.difference(numbers_b))
+# print(numbers_a.symmetric_difference(numbers_b))
+# print(numbers_a.union(numbers_b))
+
+# Exercise 2
+fav_numbers = {18, 732, 27, 2, 5}
+fav_numbers.add(9)
+# print(fav_numbers)
+# print(fav_numbers.clear())
+prime_numbers = {2, 3, 5, 7, 11, 13}
+print(fav_numbers.intersection(prime_numbers))
